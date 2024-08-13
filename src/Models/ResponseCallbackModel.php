@@ -5,7 +5,7 @@ namespace Esoftdream\Response\Models;
 use CodeIgniter\Database\BaseBuilder;
 use CodeIgniter\Model;
 
-class CallbackModel extends Model
+class ResponseCallbackModel extends Model
 {
     protected $table = 'log_response_callback';
 }
