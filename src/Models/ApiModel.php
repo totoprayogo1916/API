@@ -1,6 +1,6 @@
 <?php
 
-namespace Esoftdream\Response;
+namespace Esoftdream\Response\Models;
 
 use CodeIgniter\Database\BaseBuilder;
 use CodeIgniter\Model;
