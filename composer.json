@@ -17,7 +17,10 @@
     "autoload": {
         "psr-4": {
             "Esoftdream\\Response\\": "src/"
-        }
+        },
+        "exclude-from-classmap": [
+            "**/Database/Migrations/**"
+        ]
     },
     "config": {
         "optimize-autoloader": true,
